@@ -14,7 +14,7 @@ def minOperations(n):
     div = 2
     while n > 1:
         while n % div == 0:
-            o += div
+            op += div
             n //= div
         div += 1
 
